@@ -1,0 +1,89 @@
+/* 
+  Localizable.strings
+  GssServicePro
+
+  Created by Riyas Hassan on 26/06/14.
+  Copyright (c) 2014 Riyas Hassan. All rights reserved.
+*/
+
+//VIEW TITLES
+
+//"SERVICE_TASKS" = "Service Tasks For You";
+"SERVICE_TASKS" = "My Tasks";
+"COLLEGUES_TASK"= "Service Tasks For Colleague";
+"SERVICE_TASKS_FOR_THE_DAY" = "My Tasks For The Day";
+
+//OTHER STRINGS USED IN VIEW
+
+"FETCH_SERVICETASK" = "Fetching Service Tasks...";
+"FETCH_CONTEXTDATA" = "Fetching Context Data...";
+"REFRESH_DATA"      = "Refresh App";
+"TASKS_OTHER_REP"   = "Task For Other Rep";
+"MENU"              = "Menu";
+"CANCEL"            = "Cancel";
+"SORT_BY_DATE"      = "Sort By Due Date";
+"SORT_BY_PRIORITY"  = "Sort By Priority";
+"SORT_BY_STATUS"    = "Sort By Status";
+"SORT_BY_SUBJECT"   = "Sort By Subject";
+
+//Table header button titles
+
+"PRIORITY"          = " Pri";
+"STATUS"            = " Status";
+"START_DATE"        = " Start Time";
+"CUSTOMER_LOCATION" = " Customer Location";
+"ESTIMATED_ARRIVAL" = " EST. Arrival";
+"SERVICE_DOC"       = " Service Doc.";
+"CONTACT_NAME"      = " Contact Name";
+
+
+
+//Task Detail view Title Label strings
+
+"SERVICE_LOCATION"  = "Service Location";
+"FIELD_NOTE"        = "Field Note";
+"ENTER_REASON"      = "Enter the Reason";
+"SERVICE_ORDER"     = "Service Order";
+"SERVICE_ORDR_TYPE" = "Service Order Type";
+"PRIORITY_TITLE"    = "Priority";
+"REASON"            = "Reason";
+"EST_ARRIVAL_DATE"  = "Estimated Arrival";
+"CONT_NAME"         = "Contact Name";
+"TELEPHONE_NUMBER"  = "Telephone Num";
+"ALT_TEL_NUMBER"    = "Alt telephone Num";
+"SERVICE_ORDER_DESC"= "Service Order description";
+"OTHER_DETAILS"     = "Other details";
+"FIRST_SERVICE_ITEM"= "First Service item";
+"SERVICE_ITEM"      = "Service item";
+"SERVICE_NOTE"      = "Service Note";
+
+"TIME_ZONE"         = "Time Zone";
+
+"CHOOSE_ACTION"     = "Choose Action";
+"MAP_CUSTOMER"      = "Map Customer";
+"TRANSFER_TASK"     = "Transfer Task";
+"CAPTURE_IMAGE"     = "Capture Image";
+"CAPTURE_SIGNATURE" = "Attach Signature";
+"SHOW_PDF"          = "Generate PDF";
+"SERVICE_CONFIRMATION" = "Service Confirmation";
+
+"SERVICE_STATUS"            = "Status";
+"START_TIME"        = "Start Time";
+
+//Map View
+"MAP_SELECTION_TITLE"   = "Select your default map";
+"SELECT_APPLE_MAP"      = "Apple Map";
+"SELECT_GOOGLE_MAP"     = "Google Map";
+
+
+//Colleagues View
+
+"FETCH_COLLEAGUES_TASK" = "Fetching colleague's service tasks...";
+
+
+//Confirmation Screen
+
+"ADD_NEW_SPARE"     = "Add New Spare";
+"ADD_NEW_FAULT"     = "Add New Fault";
+"ADD_NEW_SERVICE"   = "Add New Service Item";
+

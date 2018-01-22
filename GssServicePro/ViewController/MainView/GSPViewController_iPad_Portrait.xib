@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GSPViewController">
+            <connections>
+                <outlet property="activitiesButton" destination="2VX-cG-3ms" id="bec-si-b3T"/>
+                <outlet property="billableButton" destination="yIr-80-Wgc" id="ioh-Zg-4ir"/>
+                <outlet property="contactName" destination="x05-gZ-Kms" id="7sZ-b7-LcN"/>
+                <outlet property="contactNum1Button" destination="7Xx-sL-Ge8" id="7zN-M2-3Qm"/>
+                <outlet property="contactNum2Button" destination="R4r-fq-wOU" id="s7s-RD-yaF"/>
+                <outlet property="contatcsButton" destination="TCh-uO-RQA" id="SOY-sc-sg2"/>
+                <outlet property="emailIDButton" destination="Ns9-cn-52q" id="fQR-tv-8pu"/>
+                <outlet property="mapWebView" destination="FBA-Es-6dL" id="ttA-aC-PW8"/>
+                <outlet property="nextServiceLocation1" destination="odS-yy-DoY" id="frg-9p-3oW"/>
+                <outlet property="nextServiceLocation2" destination="a5r-OX-uJ9" id="yfK-Zs-Wfp"/>
+                <outlet property="nextServiceLocation3" destination="NIs-dL-zGY" id="9Zq-fy-1wq"/>
+                <outlet property="nextServiceOrgName" destination="ULV-hS-087" id="RLs-XF-Ilg"/>
+                <outlet property="numOfTasksForTodayLabel" destination="Bni-Bn-SXx" id="UuW-kz-6vB"/>
+                <outlet property="phoneIcon1" destination="Xrs-hT-3ch" id="VgZ-Od-5QD"/>
+                <outlet property="phoneIcon2" destination="jX2-54-PDb" id="cPb-Kg-ygF"/>
+                <outlet property="segmentedControl" destination="vRS-BB-WBb" id="voV-78-AiD"/>
+                <outlet property="totalNumOfTasksLabel" destination="tMT-Nn-DbQ" id="PCr-na-hLe"/>
+                <outlet property="totalServiceTaskButton" destination="ZNd-Pf-AaP" id="9et-iD-zmz"/>
+                <outlet property="utilisationButton" destination="BXe-uX-eLi" id="sfi-Bk-I2l"/>
+                <outlet property="vanStockButton" destination="7yL-Zf-exK" id="JvV-l5-bSN"/>
+                <outlet property="view" destination="hj3-yi-EtU" id="8LT-qo-OVA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="hj3-yi-EtU" userLabel="View Portrait">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yL-Zf-exK">
+                    <rect key="frame" x="21" y="374" width="87" height="74"/>
+                    <state key="normal" title="Button" image="VanStock"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXe-uX-eLi">
+                    <rect key="frame" x="178" y="379" width="71" height="74"/>
+                    <state key="normal" title="Button" image="Utilization"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCh-uO-RQA">
+                    <rect key="frame" x="348" y="379" width="71" height="74"/>
+                    <state key="normal" title="Button" image="Contacts"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIr-80-Wgc">
+                    <rect key="frame" x="513" y="379" width="71" height="74"/>
+                    <state key="normal" title="Button" image="Billable"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VX-cG-3ms">
+                    <rect key="frame" x="676" y="379" width="71" height="74"/>
+                    <state key="normal" title="Button" image="Activities"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Van Stock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfa-ii-k3G">
+                    <rect key="frame" x="21" y="467" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Utilization" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwf-TS-mRa">
+                    <rect key="frame" x="173" y="467" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contacts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pA-Bg-KMC">
+                    <rect key="frame" x="343" y="467" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Billable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn4-gm-LxN">
+                    <rect key="frame" x="508" y="467" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activities" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEP-Qd-zE0">
+                    <rect key="frame" x="671" y="467" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNd-Pf-AaP">
+                    <rect key="frame" x="15" y="212" width="345" height="138"/>
+                    <connections>
+                        <action selector="totalServiceTasksButtonClick:" destination="-1" eventType="touchUpInside" id="lEK-D8-BnW"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Tasks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKy-4z-hOz">
+                    <rect key="frame" x="15" y="217" width="109" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.55859375" green="0.55859375" blue="0.55859375" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TotalTasks" translatesAutoresizingMaskIntoConstraints="NO" id="eLw-re-2wB">
+                    <rect key="frame" x="48" y="262" width="60" height="66"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMT-Nn-DbQ">
+                    <rect key="frame" x="208" y="262" width="127" height="80"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                    <color key="textColor" red="0.13092708689999999" green="0.46177903619999999" blue="0.82270302740000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9k5-fS-Z3P">
+                    <rect key="frame" x="411" y="212" width="345" height="138"/>
+                    <connections>
+                        <action selector="taskForTheDayButtonClicked:" destination="-1" eventType="touchUpInside" id="HAx-xX-N17"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tasks for the day" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVO-ai-HM0">
+                    <rect key="frame" x="411" y="217" width="180" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.55859375" green="0.55859375" blue="0.55859375" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bni-Bn-SXx">
+                    <rect key="frame" x="604" y="262" width="127" height="80"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                    <color key="textColor" red="1" green="0.56136195720000004" blue="0.1194138453" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TasksForTheDay" translatesAutoresizingMaskIntoConstraints="NO" id="9lC-Xf-NVa">
+                    <rect key="frame" x="449" y="262" width="53" height="53"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jox-fc-QgS">
+                    <rect key="frame" x="15" y="358" width="345" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gjo-4m-de2">
+                    <rect key="frame" x="406" y="358" width="345" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NextService" translatesAutoresizingMaskIntoConstraints="NO" id="wYz-rP-AFo">
+                    <rect key="frame" x="26" y="23" width="69" height="70"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULV-hS-087">
+                    <rect key="frame" x="116" y="23" width="619" height="38"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next Customer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="71" translatesAutoresizingMaskIntoConstraints="NO" id="FvI-Ib-nUf">
+                    <rect key="frame" x="25" y="97" width="71" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odS-yy-DoY">
+                    <rect key="frame" x="116" y="99" width="244" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.55859375" green="0.55859375" blue="0.55859375" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5r-OX-uJ9">
+                    <rect key="frame" x="116" y="121" width="244" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.55859375" green="0.55859375" blue="0.55859375" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIs-dL-zGY">
+                    <rect key="frame" x="116" y="143" width="244" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.55859375" green="0.55859375" blue="0.55859375" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x05-gZ-Kms">
+                    <rect key="frame" x="406" y="90" width="165" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xx-sL-Ge8">
+                    <rect key="frame" x="579" y="90" width="172" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrs-hT-3ch">
+                    <rect key="frame" x="730" y="90" width="21" height="21"/>
+                    <state key="normal" title="Button" image="PhoneIcon"/>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jX2-54-PDb">
+                    <rect key="frame" x="730" y="122" width="21" height="21"/>
+                    <state key="normal" title="Button" image="PhoneIcon"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cho-6e-Vd9">
+                    <rect key="frame" x="15" y="204" width="736" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4r-fq-wOU">
+                    <rect key="frame" x="579" y="122" width="172" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ns9-cn-52q">
+                    <rect key="frame" x="406" y="167" width="329" height="21"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.028045135339999999" green="0.3753380395" blue="0.74568528990000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vRS-BB-WBb">
+                    <rect key="frame" x="25" y="535" width="722" height="29"/>
+                    <segments>
+                        <segment title="Next Customer"/>
+                        <segment title="Itinerary"/>
+                    </segments>
+                </segmentedControl>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVd-ev-lTm">
+                    <rect key="frame" x="15" y="509" width="736" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FBA-Es-6dL">
+                    <rect key="frame" x="25" y="563" width="722" height="383"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Activities" width="100" height="100"/>
+        <image name="Billable" width="100" height="100"/>
+        <image name="Contacts" width="100" height="100"/>
+        <image name="NextService" width="100" height="100"/>
+        <image name="PhoneIcon" width="100" height="100"/>
+        <image name="TasksForTheDay" width="100" height="100"/>
+        <image name="TotalTasks" width="100" height="100"/>
+        <image name="Utilization" width="100" height="100"/>
+        <image name="VanStock" width="100" height="90"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

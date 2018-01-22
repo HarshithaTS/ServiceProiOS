@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AA6F404F-1F3C-48EE-8F82-E4DB3126D7CF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GssServicePro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6B24211E457BD11DB6E16C3927F791A53CDF8BE6</key>
+		<string>https://github.com/Gssdev/GssServiceProARCEnabledCode.git</string>
+		<key>BA102CE312B1AD106AD53E9AA7CD8018C5157B66</key>
+		<string>https://github.com/GlobalSoftSolutions/ServiceProARCEnabledCode</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GssServicePro.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6B24211E457BD11DB6E16C3927F791A53CDF8BE6</key>
+		<string>../..</string>
+		<key>BA102CE312B1AD106AD53E9AA7CD8018C5157B66</key>
+		<string>../../../ServiceProARCEnabledCode</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Gssdev/GssServiceProARCEnabledCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6B24211E457BD11DB6E16C3927F791A53CDF8BE6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6B24211E457BD11DB6E16C3927F791A53CDF8BE6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GssServiceProARCEnabledCode</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA102CE312B1AD106AD53E9AA7CD8018C5157B66</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ServiceProARCEnabledCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

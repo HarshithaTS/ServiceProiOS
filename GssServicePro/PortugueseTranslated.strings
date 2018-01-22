@@ -1,0 +1,21 @@
+/* 
+  PortugueseTranslated.strings
+  GssServicePro
+
+  Created by Sahana on 29/07/16.
+  Copyright (c) 2016 Sahana. All rights reserved.
+*/
+
+
+//PDF screen
+
+"Field_Service_Report"="Relatorio de Servico de Campo";
+"Service_Document"="Documento de servico";
+"Priority"="Prioridade";
+"Service_Description"="Descricao do Servico";
+"Other_Details"="Outros detalhes";
+"Field_Note"="Nota de campo";
+"Start_Time"="Hora de início";
+"End_Time"="Fim do tempo";
+"Contact"="Contato";
+"Other_Attachments"="Outros Anexos";

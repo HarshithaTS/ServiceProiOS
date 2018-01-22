@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/gss/Desktop/Harshitha/GssServiceProARCEnabledCode/GssServicePro/ViewController/ServiceConfirmationCreation/iPhoneConfirmationCreationDetailView/GSPConfirmationCreationDetailView_iPhoneViewController.m \
+  /Users/gss/Desktop/Harshitha/GssServiceProARCEnabledCode/GssServicePro/ViewController/ServiceConfirmationCreation/iPhoneConfirmationCreationDetailView/GSPConfirmationCreationDetailView_iPhoneViewController.h \
+  /Users/gss/Desktop/Harshitha/GssServiceProARCEnabledCode/GssServicePro/ViewController/BaseView/GSPBaseViewController.h \
+  /Users/gss/Desktop/Harshitha/GssServiceProARCEnabledCode/GssServicePro/Model/ServiceTask.h

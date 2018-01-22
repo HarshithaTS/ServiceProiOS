@@ -1,0 +1,19 @@
+/* 
+  default_lang.strings
+  GssServicePro
+
+  Created by Sahana on 29/07/16.
+  Copyright (c) 2016 Sahana. All rights reserved.
+*/
+
+
+"Field_Service_Report"="Field Service Report";
+"Service_Document"="Service Document";
+"Priority"="Priority";
+"Service_Description"="Service Description";
+"Other_Details"="Other Details";
+"Field_Note"="Field Note";
+"Start_Time"="Start Time";
+"End_Time"="End Time";
+"Contact"="Contact";
+"Other_Attachments"="Other Attachments";

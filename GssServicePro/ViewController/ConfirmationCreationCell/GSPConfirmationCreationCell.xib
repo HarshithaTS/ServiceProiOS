@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GSPConfirmationCreationCell" rowHeight="50" id="KGk-i7-Jjw" customClass="GSPConfirmationCreationCell">
+            <rect key="frame" x="0.0" y="0.0" width="1122" height="50"/>
+            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="1122" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="98V-mq-Dm0">
+                        <rect key="frame" x="4" y="10" width="30" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="Edit">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jfg-Tt-oba">
+                        <rect key="frame" x="37" y="10" width="30" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="Delete">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Jo-qN-4N1">
+                        <rect key="frame" x="70" y="11" width="26" height="27"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="Uncheckmark">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Description" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dAq-YT-Ua2" customClass="GSPTableLabel">
+                        <rect key="frame" x="104" y="0.0" width="225" height="49"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xfc-Av-V8R" customClass="GSPTableLabel">
+                        <rect key="frame" x="331" y="16" width="100" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start dt" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Xz-bm-hGm" customClass="GSPTableLabel">
+                        <rect key="frame" x="447" y="16" width="154" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End date" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zmX-Ed-HG0" customClass="GSPTableLabel">
+                        <rect key="frame" x="612" y="16" width="154" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RsW-CN-bER" customClass="GSPTableLabel">
+                        <rect key="frame" x="786" y="16" width="63" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w7Z-Pm-g01" customClass="GSPTableLabel">
+                        <rect key="frame" x="859" y="16" width="240" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkBoxButton" destination="9Jo-qN-4N1" id="LsL-uj-yJk"/>
+                <outlet property="deleteButton" destination="jfg-Tt-oba" id="oP4-Yf-cel"/>
+                <outlet property="durationLabel" destination="xfc-Av-V8R" id="fza-fQ-geG"/>
+                <outlet property="editButton" destination="98V-mq-Dm0" id="fdy-Cm-M9W"/>
+                <outlet property="endDateLabel" destination="zmX-Ed-HG0" id="pvV-hC-Gnv"/>
+                <outlet property="notesLabel" destination="w7Z-Pm-g01" id="hmb-yc-AIu"/>
+                <outlet property="serviceDescriptionLabel" destination="dAq-YT-Ua2" id="IQg-nb-3cy"/>
+                <outlet property="serviceLabel" destination="RsW-CN-bER" id="RaF-Wo-3hh"/>
+                <outlet property="startDateLabel" destination="9Xz-bm-hGm" id="GBB-Un-BGg"/>
+            </connections>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="53" id="SoM-RH-alP" customClass="GSPConfirmationCreationCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SoM-RH-alP" id="GVB-Wi-v7s">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Uy1-FQ-cSb">
+                        <rect key="frame" x="7" y="13" width="25" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="Edit_pencil">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TE8-oO-U9N">
+                        <rect key="frame" x="42" y="13" width="25" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="DeleteBtn">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g88-4e-d6c">
+                        <rect key="frame" x="76" y="15" width="23" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="unchecked">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Description" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rNV-RQ-rdY" customClass="GSPTableLabel">
+                        <rect key="frame" x="106" y="4" width="183" height="43"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkBoxButton" destination="g88-4e-d6c" id="gmR-Fa-yKz"/>
+                <outlet property="deleteButton" destination="TE8-oO-U9N" id="t1o-NE-ALh"/>
+                <outlet property="editButton" destination="Uy1-FQ-cSb" id="K1p-pl-Ilq"/>
+                <outlet property="serviceDescriptionLabel" destination="rNV-RQ-rdY" id="q5D-6U-Dqh"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Delete" width="100" height="100"/>
+        <image name="DeleteBtn" width="32" height="32"/>
+        <image name="Edit" width="100" height="100"/>
+        <image name="Edit_pencil" width="32" height="32"/>
+        <image name="Uncheckmark" width="100" height="100"/>
+        <image name="unchecked" width="16" height="15"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

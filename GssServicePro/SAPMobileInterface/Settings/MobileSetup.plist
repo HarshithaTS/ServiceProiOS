@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ServiceURL3</key>
+	<string>http://gsswd.globalsoftsolutions.net:7500/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/110/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00</string>
+	<key>BuildDate</key>
+	<string></string>
+	<key>BuildBy</key>
+	<string></string>
+	<key>ServiceURL</key>
+	<string>http://75.99.152.10:8050/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/110/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00</string>
+	<key>ServiceURL2</key>
+	<string>http://gsswd.globalsoftsolutions.net:8051/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/111/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00</string>
+	<key>BUILDNAME</key>
+	<string>TCW-QA-ServicePro-iOS7-20140331.ipa</string>
+	<key>Edition</key>
+	<string>iOS 6.1, 7.0</string>
+	<key>Version</key>
+	<string>2.4.1</string>
+	<key>PackageName</key>
+	<string>ServicePro</string>
+	<key>SERVICEURL_PRD</key>
+	<string>http://TCW-MAS01.ThompsonCreek.com:8300/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/300/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00</string>
+	<key>SERVICEURL_QA</key>
+	<string>http://TCW-MAS02.ThompsonCreek.com:8200/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/200/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00_bndng</string>
+	<key>Database</key>
+	<array>
+		<string>db_queueprocessor</string>
+		<string>VanStockDB.sqlite</string>
+		<string>ServiceReportsDB.sqlite</string>
+		<string>gssSystemDB.sqlite</string>
+	</array>
+</dict>
+</plist>
